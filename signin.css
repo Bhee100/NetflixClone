@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+@media only screen and (min-width:0px){
+    .mainwrapper{
+        height: 100vh;
+    }
+    .signinsection{
+        height: 140%;
+        background-color: black;
+    }
+    
+    .icon{
+        height: 3rem;
+        margin-top: 2rem;
+        padding-left: 2rem;
+        
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 95vh;
+        border-bottom: 1px solid #B3B5BC;
+
+    }
+    section{
+        margin-top: -20rem;
+
+    }
+    
+    
+    h1{
+        font-size: 2rem;
+        color: #ffff;
+        margin: 4rem;
+    }
+    form{
+        display: grid;
+        gap: 2rem;
+        margin: -1rem 2rem;
+        padding: 0 2rem;
+    }
+    .login{
+       background-color: rgb(49, 47, 47);
+       border: 3rem;
+       color:#ffff;
+       min-width: 30rem;
+       min-height:3rem ;
+       font-weight: 10rem;
+       text-align: start;
+       padding-left: 1rem;
+       font-size: 1rem;
+       border-radius: 0.2rem;
+       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    }
+    button{
+        min-width: 30rem;
+        min-height:3rem ;
+        background-color: red; 
+        border: none;
+        color: #ffff;
+        font-weight: 700;
+        font-size: 1rem;
+        border-radius: 0.2rem;
+    }
+    .below{
+        display:flex;
+        justify-content: space-around;
+    }
+    label{
+        color: gray;
+    }
+    .remember{
+        margin-top: 2rem;
+    }
+    
+     p{
+      margin-top:2rem;
+      margin-left: 4rem;
+      color: gray;
+      font-size: 0.9rem;
+    } 
+     .help{
+      margin-top:2rem;
+      margin-left: 4rem;
+    }
+    
+    footer{
+        background-color: rgba(0, 0, 0, 0.72);
+        height: 20%;
+        margin-top: 5rem;
+        width: 100%;
+        border:none ;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);   
+    }
+    
+    .footcontent{
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        /* padding:0 2rem; */
+        justify-content: space-evenly;
+        margin-left: 5rem;
+        margin-top: 2rem;
+    }
+    a{
+    color: #B3B5BC;
+    }
+    .foot{
+    margin-left: 5rem;  
+    margin-top: -5rem;
+    padding-top: 2rem;
+    }
+    .bottom{
+        color: #ffff;
+    }
+}
+    
+    @media only screen and (min-width:768px){
+    .signinsection{
+        background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(./net.img/NG-en.jpg);
+
+    }  
+    section{
+        background-color: rgba(0, 0, 0, 0.72);
+        min-height: 37rem;
+        max-width: 28rem;
+        border-radius: 0.5rem;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    } 
+    button{
+        min-width: 20rem;
+    }
+    .login{
+        min-width: 20rem;
+    }
+     .footcontent{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+     }   
+     
+    
+}
